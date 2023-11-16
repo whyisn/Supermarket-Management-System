@@ -1,0 +1,237 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 31, 2023, 9:14:00 PM
+    Author     : Wahyu Isnan
+*/
+
+.top-form {
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover {
+    -fx-background-color: #dd2f4f;
+}
+
+.minimize {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.minimize:hover {
+    -fx-background-color: #ddd;
+}
+
+.semi-top-form {
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .8px .4px;
+}
+
+.nav-form {
+    -fx-background-color: linear-gradient(to top right, #64522c, #a8962b);
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.nav-btn-default {
+    -fx-background-color: linear-gradient(to top right, #896b34, #b8a536);
+    -fx-cursor: hand;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.logout-btn {
+    -fx-background-color: #b58d38;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.logout-btn:hover {
+    -fx-background-color: #d6a135;
+}
+
+.white-bg {
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5,0,0,0);
+}
+
+.card1 {
+    -fx-background-color: linear-gradient(to right, #2e4d6e, #276a99);
+    -fx-background-radius: 5px;
+}
+
+.card2 {
+    -fx-background-color: linear-gradient(to right, #542c63, #8825a1);
+    -fx-background-radius: 5px;
+}
+
+.card3 {
+    -fx-background-color: linear-gradient(to right, #752131, #ea243f);
+    -fx-background-radius: 5px;
+}
+
+.textfield {
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 0px 0px .8px 0px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 13px;
+}
+
+.textfield:focused {
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.combobox {
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 1px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 13px;
+}
+
+.combobox:focused {
+    -fx-border-width: 2px;
+}
+
+.add-btn {
+    -fx-background-color: #275578;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.add-btn:hover {
+    -fx-background-color: #2975ab;
+}
+
+.perbarui-btn {
+    -fx-background-color: #277737;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.perbarui-btn:hover {
+    -fx-background-color: #30ab67;
+}
+
+.clear-btn {
+    -fx-background-color: #7c3186;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.clear-btn:hover {
+    -fx-background-color: #9328a4;
+}
+
+.hapus-btn {
+    -fx-background-color: #822730;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.hapus-btn:hover {
+    -fx-background-color: #b52a38;
+}
+
+.search {
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 0px 0px 0px 28px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+}
+
+.search:focused {
+    -fx-border-width: 2px;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 0px;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 5px 5px 0px 0px;
+}
+
+.table-view .column-header, .filter {
+    -fx-background-color: transparent;
+    -fx-size: 50px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #fff;
+}
+
+.pay-btn {
+    -fx-background-color: #317584;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.pay-btn:hover {
+    -fx-background-color: #33a2b8;
+}
+
+.struk-btn {
+    -fx-background-color: #5e7230;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.struk-btn:hover {
+    -fx-background-color: #89ae32;
+}
