@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 30, 2023, 9:15:55 AM
+    Author     : Wahyu Isnan
+*/
+
+.left-form {
+    -fx-background-color: linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px; /*TOP RIGHT BOTTOM LEFT*/
+}
+
+.right-form {
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+.textfield {
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 8px;
+    -fx-border-color: #000;
+    -fx-border-width: 0px 0px .8px 0px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 13px;
+    -fx-border-radius: 8px;
+}
+
+.textfield:focused {
+    -fx-background-color: #efefef;
+    -fx-border-width: 0px 0px 1.8px 0px;
+}
+
+.login-btn {
+    -fx-background-color: linear-gradient(to bottom, #2365a7, #213c57);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+.login-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #3d85cc, #295986);
+}
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover {
+    -fx-background-color: #dd2f4f;
+}
+
+.hyperlink {
+    -fx-border-color: transparent;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+    -fx-text-fill: #369eda;
+}
+.hyperlink:hover {
+    -fx-text-fill: #000;
+}
+
+/*That is for the login form admin, we will created also for the employee or cashier*/
